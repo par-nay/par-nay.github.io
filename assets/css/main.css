@@ -111,13 +111,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #6b3ab4;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #6b3ab4 !important;
 			text-decoration: none;
 		}
 
@@ -3222,6 +3222,27 @@ input, select, textarea {
 
 
     
+
+    /* Tech-y pill links (chips) */
+    .chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5em;
+        padding: 0.25em 0.7em;
+        border-radius: 999px;
+        border: 1px solid rgba(255,255,255,0.35);
+        text-decoration: none;
+        border-bottom: none;
+        font-size: 0.9em;
+        line-height: 1.6;
+    }
+
+    .chip:hover {
+        border-color: #6b3ab4;
+        color: #6b3ab4 !important;
+    }
+
+
     .pub-list {
         list-style: none;
         padding-left: 0;
@@ -3248,4 +3269,98 @@ input, select, textarea {
         padding-left: 2em;     /* space for the icon */
         margin-bottom: 1.5em;
         line-height: 1.6;
+    }
+
+
+    /* .project-list { list-style: none; padding-left: 0; margin: 0; }
+    .project { margin-bottom: 2rem; }
+
+    .project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    align-items: center;
+    }
+
+    .project-links .chip {
+    display: inline-block;
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    border: 1px solid rgba(255,255,255,0.25);
+    text-decoration: none;
+    font-size: 0.9em;
+    line-height: 1.6;
+    }
+
+    .project-links .chip:hover {
+    border-color: rgba(255,255,255,0.6);
+    } */
+
+      /* Projects */
+
+    .project-list {
+        list-style: none;
+        padding-left: 0;
+        margin: 0 0 2em 0;
+    }
+
+    .project-list .project {
+        margin-bottom: 2em;
+    }
+
+    .project-list .project h4 {
+        margin: 0 0 0.1em 0;
+    }
+
+    .project-list .project p {
+        margin: 0 0 0.1em 0;
+    }
+
+    .project-links {
+        display: inline-flex;
+        gap: 1.2em;
+        align-items: center;
+    }
+
+    .project-links a.icon {
+        border-bottom: none;
+    }
+
+    .project-links a {
+        border-bottom: none;
+    }
+
+    .paper-links {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 1.2em;
+        margin-top: 0.35em;
+    }
+
+    .paper-links a.icon {
+        border-bottom: none;
+    }
+
+    /* Project list indentation */
+    .project-list .project p,
+    .project-list .project .project-links,
+    .project-list .project .paper-links {
+        margin-left: 1.6em;
+    }
+
+    .arxiv-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.18em;
+        /* border-bottom: none; avoids the dotted underline across icon+text */
+    }
+
+    .arxiv-link:hover {
+        border-bottom: none;
+    }
+
+    .arxiv-logo {
+        height: 1.1em;
+        width: auto;
+        vertical-align: middle;
     }
