@@ -3310,6 +3310,8 @@ input, select, textarea {
 
     .project-list .project h4 {
         margin: 0 0 0.1em 0;
+        padding-left: 1.6em;
+	    text-indent: -1.6em;
     }
 
     .project-list .project p {
@@ -3345,7 +3347,7 @@ input, select, textarea {
     .project-list .project p,
     .project-list .project .project-links,
     .project-list .project .paper-links {
-        margin-left: 1.6em;
+        margin-left: 1.2em;
     }
 
     .arxiv-link {
