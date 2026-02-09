@@ -3310,8 +3310,8 @@ input, select, textarea {
 
     .project-list .project h4 {
         margin: 0 0 0.1em 0;
-        padding-left: 1.6em;
-	    text-indent: -1.6em;
+        padding-left: 1.5em;
+	    text-indent: -1.5em;
     }
 
     .project-list .project p {
@@ -3320,7 +3320,7 @@ input, select, textarea {
 
     .project-links {
         display: inline-flex;
-        gap: 1.2em;
+        /* gap: 1.2em; */
         align-items: center;
     }
 
@@ -3336,7 +3336,7 @@ input, select, textarea {
         display: inline-flex;
         flex-wrap: wrap;
         gap: 1.2em;
-        margin-top: 0.35em;
+        margin-top: 0.0em;
     }
 
     .paper-links a.icon {
