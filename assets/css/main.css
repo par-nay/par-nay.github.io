@@ -3335,7 +3335,7 @@ input, select, textarea {
 
     .project-links {
         display: inline-flex;
-        /* gap: 1.2em; */
+        gap: 1.2em;
         align-items: center;
     }
 
